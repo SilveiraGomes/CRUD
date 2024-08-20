@@ -71,7 +71,7 @@ function App() {
           <h4 className="text-center">Lista de Tarefas</h4>
           {
             size(tasks) === 0 ? (
-              <li className="list-group-item text-center text-info">Não Existe Tarefas Inseridas</li>
+              <li className="list-group-item text-center text-info">Não existe tarefas inseridas</li>
             ) : ( 
             <ul className="list-group">
               {
